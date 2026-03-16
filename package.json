@@ -1,0 +1,24 @@
+{
+  "name": "server-monitor",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "run": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^1.4.0",
+    "@elysiajs/jwt": "^1.4.1",
+    "@elysiajs/static": "^1.4.7",
+    "elysia": "^1.4.27",
+    "systeminformation": "^5.31.4"
+  }
+}
